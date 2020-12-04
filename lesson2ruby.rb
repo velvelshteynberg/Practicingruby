@@ -61,74 +61,82 @@
 
 # puts "enter teh second number"
 
-# second_number = gets.chomp.to_i
+# # second_number = gets.chomp.to_i
 
-# puts "Enter te operation (1-add, 2- subtract, 3-multiply, 4-divide"
+# # puts "Enter te operation (1-add, 2- subtract, 3-multiply, 4-divide"
 
-# get_user_operation = gets.chomp
+# # get_user_operation = gets.chomp
 
-# answer = nil
+# # answer = nil
 
-# if get_user_operation == "1"
-#     answer = first_number + second_number
-#     #puts " your anser is #{answer}"
-# elsif get_user_operation == "2"
-#     answer = first_number - second_number
-#     #puts "your answer is #{answer}"
-# elsif get_user_operation == "4"
-#     answer = first_number/second_number
-#     #puts "your answer is #{answer}"
-# elsif get_user_operation == "3"
-#     answer = first_number*second_number
-#     #puts "your answer is #{answer}"
-# else
-# #     puts "Invalid operation"
+# # if get_user_operation == "1"
+# #     answer = first_number + second_number
+# #     #puts " your anser is #{answer}"
+# # elsif get_user_operation == "2"
+# #     answer = first_number - second_number
+# #     #puts "your answer is #{answer}"
+# # elsif get_user_operation == "4"
+# #     answer = first_number/second_number
+# #     #puts "your answer is #{answer}"
+# # elsif get_user_operation == "3"
+# #     answer = first_number*second_number
+# #     #puts "your answer is #{answer}"
+# # else
+# # #     puts "Invalid operation"
+# # # end
+
+# # # if answer == nil
+# # #     puts "invalid operation"
+# # # else 
+# # #     puts "your answer is #{answer}"
+# # # end
+
+# # # puts "your answer is #{answer}"
+
+# # puts "which day is today? mon/tues/weds"
+
+# # today_ = gets.chomp
+
+# # if today_ == "mon"
+    
+# #     puts "is it raining? yes/no"
+# #     raining_ = gets.chomp
+    
+# #     if raining_ == "yes"
+# #         puts "Stay home"
+# #     else
+# #         puts "go to work"
+# #     end
+    
+# # else
+# #     puts "All good"    
 # # end
 
-# # if answer == nil
-# #     puts "invalid operation"
-# # else 
-# #     puts "your answer is #{answer}"
-# # end
-
-# # puts "your answer is #{answer}"
-
-# puts "which day is today? mon/tues/weds"
-
-# today_ = gets.chomp
-
-# if today_ == "mon"
-    
-#     puts "is it raining? yes/no"
-#     raining_ = gets.chomp
-    
-#     if raining_ == "yes"
-#         puts "Stay home"
-#     else
-#         puts "go to work"
-#     end
-    
-# else
-#     puts "All good"    
-# end
 
 
+# #Looping
+# #while
 
-#Looping
-#while
-
-counter = 1
+# counter = 1
 
 # while counter <= 500
 #     puts "Hello world #{counter}"
 #     counter += 1
 # end
 
-x = 0 
+# x = 0 
 
-while x <= 5
-    if x % 2 == 0
-        puts "#{x} is even"
-    end
-    x += 1
+# while x <= 5
+#     if x % 2 == 0
+#         puts "#{x} is even"
+#     end
+#     x += 1
+# end 
+
+# while true
+#     puts "hi .. i am crazy !!"
+# end
+
+100000. times do
+    puts "blah blah blah"
 end 
