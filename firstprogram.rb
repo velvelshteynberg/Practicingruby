@@ -65,6 +65,14 @@ my_fav_num = my_fav_num.to_s
  puts my_fav_num + my_name
 
 
+ puts "what is your name?"
+
+
+
+
+
+
+
 
 
 
